@@ -1,0 +1,141 @@
+body {
+    background-color: #e03326;
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:aliceblue;
+    font-size: 20px;
+}
+#header h1{
+    padding-top: 30px;
+    margin: 0;
+    margin-top: -18px;
+    margin-left: 30px;
+    margin-bottom: - 20px;
+    font-size: 100px;
+    line-height: 80px;
+}
+#header p{
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    font-size: 35px;
+}
+
+#options{
+    float: right;
+
+}
+#options ul{
+    list-style: none;
+    margin: 0;
+    margin-right: 30px;
+    margin-top: 50px;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(250, 170, 164);
+}
+
+#options li{
+    background-color:#e03326;
+    text-align: center;
+    margin-bottom: 23px;
+    color:aliceblue;
+    border-style: solid;
+    border-color:#e03326;
+    border-width: 2px;
+    border-radius: 28px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight:600;
+    font-size: 25px;
+}
+
+#stylesheets, #no_styles{
+    margin:0;
+    color:#e03326;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-right: 10px;
+    background-color: aliceblue;
+    font-size: 27px;
+}
+
+#stylesheets p, #no_styles p{
+    color:black;
+    font-size: 23px;
+}
+#no_styles{
+    margin-top: -50px;
+    padding-bottom: 20px;
+}
+
+#side_bar{
+   color:#e03326;
+   background-color: rgb(250, 170, 164);
+   margin-left: 10px;
+   margin-right: 10px;
+   padding-top: 9px;
+   padding-bottom: 10px;
+   
+}
+
+#side_bar h1, #side_bar p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#side_bar p{
+    font-size: 25px;
+}
+
+#footer{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #e03326;
+    font-weight: lighter;
+    font-size: 18px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+
+#stylesheets a:hover, #no_styles a:hover{
+    text-decoration: underline;
+}
+
+#options li:hover{
+    background-color: aliceblue;
+    color:#e03326;
+}
+
+#options #active{
+    background-color: aliceblue;
+    color:#e03326;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+ }
+ ::-webkit-scrollbar-thumb{
+    height: 2px;
+    background: rgba(255, 253, 255, 0.159);
+    border-width: 2.8px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10px;
+
+ }
+ ::-webkit-scrollbar-track{
+    background: linear-gradient(141deg, #ff725f 0%, #f8f8f8 51%, #af442c 75%);
+    border-radius: 10px;
+ }
+
